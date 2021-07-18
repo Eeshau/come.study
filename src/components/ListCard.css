@@ -1,0 +1,59 @@
+.ListCards li{
+    font-size:40px;
+    list-style: none;
+    line-height: 110px;
+}
+
+.ListCards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+}
+
+
+
+.ListCards button {
+    color: white;
+    background-color: black;
+    border: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 225px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+.ListCards button:hover {
+    color: #fa7a7a60;
+    background:white;
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+
+
+
+
+.ListCards {
+    background-color: #fa7a7a60;
+    white-space: nowrap;
+    height: 500px;
+    overflow: auto;
+    overflow-y: hidden
+}
+
+
+.ListCards li {
+  height: 500px;
+  display: inline-block;
+  font-size:43px;
+  list-style: none;
+  line-height: 102px;
+  margin-top: 20px;
+}

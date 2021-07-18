@@ -1,0 +1,73 @@
+.TutorGroup {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    
+}
+
+.tutorText {
+    float:right;
+    align-items: left;
+    margin: 10px 20px 0 10px;
+    line-height: 20px;
+}
+
+
+.TutorLayout h2{ 
+    color: #FA7A7A;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.TutorLayout h4{ 
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.TutorLayout h5{
+    font-size: 20px;
+    font-weight: lighter;
+    color: grey;
+
+}
+
+
+.TutorGroup img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float:left;
+    margin: 10px 20px 0 10px;
+    margin-top: 40px;
+    position: relative;
+    object-fit: cover;
+
+}
+
+
+.TutorLayout { 
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    background-color: white;
+}
+
+
+.BookTutor {
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    line-height: 10px;
+    margin-top: 200px;
+}
+
+.calendly-inline-widget{
+min-width:320px;
+min-height:630px;
+}

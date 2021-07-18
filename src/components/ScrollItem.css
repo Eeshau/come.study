@@ -1,0 +1,87 @@
+.ScrollItemStyle h3{
+    font-size: large;
+    color: white;
+    font-weight: 300;
+}
+
+.ScrollItemStyle {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+.ScrollItemStyle img{
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.ScrollItemStyle img:hover{
+    cursor: pointer;
+    filter: brightness(0.7);
+    transform: translateY(-10px);
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.8, 1);
+}
+
+
+
+.ScrollSpace {
+    display: grid;
+    grid-template-columns: repeat( 100, 1fr);
+    justify-items: center;
+}
+
+.SmoothScroll {
+    scroll-behavior:smooth; 
+}
+
+.ContentSectionPop {
+
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    position: absolute;
+}
+
+
+.SmoothScroll button {
+    color: white;
+    background-color: black;
+    border: white;
+    border-radius: 30px;
+    padding: 20px ;
+    margin-left: 130px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.SmoothScroll button:hover {
+    color: #FA7A7A;
+    background-color: white;
+    border: white;
+    outline: white;
+    border-radius: 30px;
+    padding: 20px ;
+    cursor: pointer;
+}
+
+
+div.scrollmenu {
+    background-color: #FA7A7A;
+    white-space: nowrap;
+    height: fit-content;
+    overflow: auto;
+  }
+  
+
+  
+.scrollmenu li{
+    font-size:43px;
+    list-style: none;
+    line-height: 102px;
+    
+}

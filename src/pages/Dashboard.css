@@ -1,0 +1,51 @@
+.Profile img {
+    border-radius: 200px;
+}
+
+.DashboardStyle button {
+    color: white;
+    background-color: #FA7A7A;
+    border: #FA7A7A;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 10px;
+    width: 110px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.DashboardStyle button:hover{
+    color: white;
+    background-color: black;
+}
+
+.DashboardStyle {
+    margin: 30px;
+}
+
+.DashboardStyle h1{
+    font-weight: 900;
+}
+
+.DashboardStyle p {
+    font-family: sans-serif;
+}
+
+
+
+.DashboardScroll {
+    background-color: #fa7a7a60;
+    white-space: nowrap;
+    height: 500px;
+    overflow: auto;
+}
+
+.DashboardScroll li {
+    height: 500px;
+    display: inline-block;
+    font-size:43px;
+    list-style: none;
+    line-height: 102px;
+  }
+

@@ -1,0 +1,68 @@
+.ContentInfo h2{
+font-size: 38px;
+
+}
+
+
+.ContentInfo h4{
+    color: rgb(92, 90, 90);
+    font-weight: bold;
+}
+
+.ContentInfo h4:hover{
+    color: #FA7A7A;
+    cursor: pointer;
+}
+    
+
+.ContentInfo {
+    line-height: 10px;
+    margin: 30px;
+    display: inline-block;
+    max-width: 400px;
+}
+
+
+
+.ContentInfo p{
+font-size: medium;
+}
+
+
+.ContentInfo h6{
+    color: rgb(92, 90, 90);
+    font-weight: bold;
+}
+
+.ContentInfo h6:hover{
+    color: #FA7A7A;
+    cursor: pointer;
+}
+
+
+.pdf {
+display: inline-block;
+width: 700px;
+align-self: right; 
+}
+
+
+
+.ContentSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    width: fit-content;
+}
+
+.ContentSection {
+    background-color: white;
+}
+
+
+
+@media (max-width: 950px) {
+    .ContentSection{
+       grid-template-columns: repeat(1, 1fr);
+    }
+}

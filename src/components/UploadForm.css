@@ -1,0 +1,172 @@
+
+.UploadFormStyle select {
+    color: white;
+    background-color: #FA7A7A;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 10px;
+}
+
+.UploadFormStyle form {
+    margin: auto;
+    position: 'relative';
+    display:flex; 
+    flex-direction:row;
+    word-wrap: break-word;
+}
+
+
+.Custom-file-upload::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+.Custom-file-upload :hover {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.Custom-file-upload button{
+    border: 1px solid #FA7A7A;
+    color: grey;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.Custom-file-upload {
+    color: grey;
+}
+
+
+
+
+
+
+
+.UploadFormStyle button {
+    color: white;
+    background-color: #FA7A7A;
+    border: #FA7A7A;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 10px;
+    width: 110px;
+}
+
+.UploadFormStyle select {
+    color: white;
+    background-color: #FA7A7A;
+    border: #FA7A7A;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 10px;
+    font-family: sans-serif;
+
+}
+
+
+.UploadFormStyle button:hover{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.UploadFormStyle input {
+    border: 1px solid #FA7A7A;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 50px;
+
+}
+
+
+
+.UploadFormStyle title {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-left: 10px;
+    }
+    
+
+
+
+.UploadFormStyle textarea {
+    border: 1px solid grey;
+    border-radius: 4px;
+    overflow-y: scroll; /* Vertical scrollbar */
+    overflow: scroll; /* Horizontal and vertical scrollbar*/
+}
+
+
+
+.UploadFormStyle {
+    justify-items: auto;
+    display: grid;
+    grid-template-rows: 3;
+    display:inline;
+}
+
+
+
+
+.GoogleButtonStyle button{
+    width: 200px;
+    background: #FA7A7A;;
+    color: white;
+    border: black;
+    cursor: pointer;
+}
+
+
+.GoogleButtonStyle button:hover{
+    width: 200px;
+    background: black;
+    color: white;
+    border: 3px; 
+    border-color: pink; 
+    line-height: normal;
+}
+
+
+.GoogleButtonStyle svg{
+    width: 30px;
+    height: 30px;
+}
+
+.GoogleButtonStyle {
+    align-items: center;
+}
+
+.GoogleButtonStyle text{
+    margin: center;
+    font-size: 20px;
+}
+
+
+
+
+
+    @keyframes HomeTextAnimation {
+        0% {
+          opacity: 0;
+          transform: translateY(28px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0px);
+        }
+      }
+      
